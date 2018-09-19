@@ -1,7 +1,8 @@
-public class ArrayDemo {
+public class ArrayDemo { // 2019, 9, 19, 10:52, Jaden Rius Kiler-Stanway
     public static void main(String[] args) {
         int[] ar1 = { -20, 19, 1, 5, -1, 27, 19, 5 };
         int biggest = ArrayOps.findMax(ar1); // call findMax() with a reference to the array
+
         System.out.println("The maximum is: " + biggest);
     }
 }
@@ -11,7 +12,7 @@ class ArrayOps { // the parameter x will contain the array reference
     {
         int max = x[0];
         for (int index = 0; index < x.length; index++)
-            if (x[index] < max)
+            if (x[index] > max)
                 max = x[index];
 
         return max;
