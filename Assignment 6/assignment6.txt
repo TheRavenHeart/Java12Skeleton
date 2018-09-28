@@ -1,14 +1,14 @@
-arrayequals.java:
+arrayequals.java: This comes from the java.util package checks to see if the arrays that are specified are the same
 
-arrayinitialize.java:
+arrayinitialize.java: This 
 
 arrayinitialize2.java:
 
 arraysort.java:
 
-breakoutwhilenested.java:
+breakoutwhilenested.java: it allows you to break out of an outer loop if you use it inside of a child loop
 
-bufferedreaderinput.java:
+bufferedreaderinput.java: 
 
 continueexample.java:
 

@@ -8,6 +8,21 @@ class ArrayDemo {
         System.out.println("The maximum is: " + biggest);
         int lowest = operate.FindLowest(ar1);
         System.out.println("The lowest is: " + lowest);
+        int Sum = operate.SumArray(ar1);
+        System.out.println("The Sum is: " + Sum);
+        
+        System.out.println("The array backwards is: " );
+        operate.PrintBackwards(ar1);
+        System.out.println("");
+        System.out.println("The even numbers are: " );
+        operate.PrintEvenElements(ar1);
+        System.out.println("");
+        System.out.println("The odd numbers are: " );
+        operate.PrintOddElements(ar1);
+        System.out.println("");
+        
+        System.out.println("The array as zeros is: " );
+        operate.ZeroOut(ar1);
     }
 }
 
@@ -45,22 +60,35 @@ class ArrayOps {
     }
 
     int SumArray(int[] x) {
-
+        int sum = 0;
+        for (int i = 0; i < x.length; i++) {
+            sum = sum + x[i];
+        }
+        return sum;
     }
 
     void PrintBackwards(int[] x) {
-
+        for (int i = x.length - 1; i >= 0; i--) {
+            System.out.print(x[i] + " ");
+        }
     }
 
     void PrintOddElements(int[] x) {
-
+        for(int i = 0; i < x.length; i += 1)
+        System.out.print(x[i] + " ");
     }
 
     void PrintEvenElements(int[] x) {
-
+        for(int i = 0; i < x.length; i +=2){
+            System.out.print(x[i] + " ");
+        }
     }
 
     void ZeroOut(int[] x) {
-        
+        for (int i = 0; i < x.length; i++) {
+            
+            System.out.print((x[i] - x[i] )+ " ");
+
+        }
     }
 }
