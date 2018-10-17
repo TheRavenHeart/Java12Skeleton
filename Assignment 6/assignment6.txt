@@ -1,6 +1,6 @@
 arrayequals.java: This comes from the java.util package checks to see if the arrays that are specified are the same
 
-arrayinitialize.java: This 
+arrayinitialize.java: 
 
 arrayinitialize2.java:
 
@@ -8,17 +8,17 @@ arraysort.java:
 
 breakoutwhilenested.java: it allows you to break out of an outer loop if you use it inside of a child loop
 
-bufferedreaderinput.java: 
+bufferedreaderinput.java: The Buffered reader can only read characters. It is also more effecient in cases where you have to use multithred.
 
-continueexample.java:
+continueexample.java: Restarts the innermost while loop in this string of code it restarts every time the number is divisble by three
 
-copyarray.java:
+copyarray.java: copies an array in a specifed source array, In this case its smallprimes and changes lucknumbers 1002, 1003, 1004 and changes it to 5, 7, 9
 
-doloop.java:
+doloop.java: A doloop is a loop where the condition is checked at the end 
 
-foreachloop.java:
+foreachloop.java: This is an easier way to pirint out all he elements.
 
-foreachmulti.java:
+foreachmulti.java: foreachmulti lets you print out each array in the magicsquare
 
 forloop.java:
 

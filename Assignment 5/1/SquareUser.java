@@ -7,14 +7,14 @@ public class SquareUser {
         int num = 0;
         boolean goodData = false;
 
-        while (!goodData) {
+        while (!goodData) { // runs as long as good data is false
             System.out.print("Enter an integer: ");
             try {
-                num = scan.nextInt();
+                num = scan.nextInt(); // makes num = whatever you enter
                 goodData = true;
             }
 
-            catch (InputMismatchException ex) {
+            catch (InputMismatchException ex) { // if you enter something other than an integer this catches and resets
                 System.out.println("You entered bad data.");
                 System.out.println("Please try again.\n");
                 String flush = scan.next();
