@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.FlowPane?>
+<?import java.net.URL?>
+<FlowPane fx:id="root" fx:controller="FourButtons" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <Button fx:id="coolbutton" onAction="#handleButtonAction">Click</Button>
+        <Button fx:id="coolbuttontwo" onAction="#handleButtonActionTwo">Click</Button>
+        <Button fx:id="coolbuttonThree" onAction="#handleButtonActionThree">Click</Button>
+        <Button fx:id="coolbuttonFour" onAction="#handleButtonActionFour">Click</Button>
+    </children>
+    </FlowPane>

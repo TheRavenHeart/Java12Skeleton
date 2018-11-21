@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox fx:controller="TestTextField" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <TextField></TextField>
+        <Label>NANI</Label>      
+    </children>
+</VBox>

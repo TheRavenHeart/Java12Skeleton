@@ -8,23 +8,23 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 
-public class ButtonQuitter extends Application{
+public class BackgroundChangeButton extends Application{
 
 
     @FXML   
     private FlowPane root;
 
-    public void handleButtonAction(ActionEvent event) { // quits when button is pressed
-        System.exit(0);
+    public void handleButtonAction(ActionEvent event) {//changes background to green
+        root.setStyle("-fx-background-color:#34ee00;");
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        URL fxmlURL = ButtonQuitter.class.getResource("Main.fxml");
+        URL fxmlURL = BackgroundChangeButton.class.getResource("Main.fxml");
 
         primaryStage.setTitle("ayyy lmao");
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(fxmlURL); 
+        loader.setLocation(fxmlURL);
         FlowPane Flowpane = loader.load();
 
         Scene scene = new Scene(Flowpane);
@@ -36,3 +36,6 @@ public class ButtonQuitter extends Application{
       launch(args);
     }
 }
+      
+        
+

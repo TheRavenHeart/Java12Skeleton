@@ -1,10 +1,10 @@
 arrayequals.java: This comes from the java.util package checks to see if the arrays that are specified are the same
 
-arrayinitialize.java: 
+arrayinitialize.java: This initlizes and prints out the array
 
-arrayinitialize2.java:
+arrayinitialize2.java: A differnt way of initlizing and printing, it also limits how many numbers can go into the array
 
-arraysort.java:
+arraysort.java: This sorts out the numbers in the array , in the code here its in ascending numerical order
 
 breakoutwhilenested.java: it allows you to break out of an outer loop if you use it inside of a child loop
 
