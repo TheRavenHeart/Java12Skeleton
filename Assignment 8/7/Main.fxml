@@ -3,11 +3,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.VBox?>
 <?import java.net.URL?>
-<VBox fx:controller="PercentFat" xmlns:fx="http://javafx.com/fxml">
+<VBox fx:id="root" fx:controller="PercentFat" xmlns:fx="http://javafx.com/fxml">
     <stylesheets>
         <URL value="@Main.css" />
     </stylesheets>
     <children>
-        <Button fx:id="coolbutton" onAction="#handleButtonAction">Click</Button>
+        <TextField fx:id="TextField1"></TextField>
+        <TextField fx:id="TextField2"></TextField>    
+        <TextField fx:id="TextField3"></TextField>
+        <TextField fx:id="TextField4"></TextField> 
+        <Button fx:id="button" onAction="#handleButtonAction">Click</Button>
     </children>
 </VBox>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox fx:id="root" fx:controller="TempConversion" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <TextField fx:id="TextField1"></TextField>
+        <TextField fx:id="TextField2"></TextField>
+        <Button fx:id="button" onAction="#CLEARButtonAction">Click</Button>
+        <Button fx:id="buttonCEL" onAction="#CelButtonAction">Click</Button> 
+        <Button fx:id="buttonFAR" onAction="#FarButtonAction">Click</Button>     
+    </children>
+</VBox>
