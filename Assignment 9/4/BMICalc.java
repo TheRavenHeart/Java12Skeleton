@@ -26,7 +26,7 @@ public class BMICalc extends Application {
     public void InButtonAction(ActionEvent event) {
         try {
             double w = Double.valueOf(TextField1.getText());
-            double h = Double.valueOf(TextField2.getText());
+            double h = Double.valueOf(TextField2.getText()); // calculates your BMI
             Unumber = w/(h*h);
             TextField3.setText(String.valueOf(Unumber));
         } catch (Exception e) {
@@ -38,7 +38,7 @@ public class BMICalc extends Application {
     public void start(Stage primaryStage) throws Exception {
 
         URL fxmlURL = BMICalc.class.getResource("Main.fxml");
-        primaryStage.setTitle("DUNNO");
+        primaryStage.setTitle("DUNNO"); // sets title
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(fxmlURL);
         VBox vbox = loader.load();

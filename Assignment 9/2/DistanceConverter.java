@@ -20,7 +20,7 @@ public class DistanceConverter extends Application {
     @FXML
     private TextField TextField2;
 
-    public void InButtonAction(ActionEvent event) {
+    public void InButtonAction(ActionEvent event) { // converts centimeteres to inches
         try {
             double c = Double.valueOf(TextField1.getText());
             Unumber = c / 2.54;
@@ -33,7 +33,7 @@ public class DistanceConverter extends Application {
 
     public void CenButtonAction(ActionEvent event) {
         try {
-            double c = Double.valueOf(TextField1.getText());
+            double c = Double.valueOf(TextField1.getText());//converts inches to centimeters
             Unumber = c * 2.54;
             TextField2.setText(String.valueOf(Unumber));
         } catch (Exception e) {

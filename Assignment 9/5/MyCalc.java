@@ -27,7 +27,7 @@ public class MyCalc extends Application {
         try {
             double c = Double.valueOf(TextField1.getText());
             double f = Double.valueOf(TextField2.getText());
-            Unumber = c + f;
+            Unumber = c + f; //adds
             TextField3.setText(String.valueOf(Unumber));
         } catch (Exception e) {
             TextField3.setText("invalid Input");
@@ -39,7 +39,7 @@ public class MyCalc extends Application {
         try {
             double c = Double.valueOf(TextField1.getText());
             double f = Double.valueOf(TextField2.getText());
-            Unumber = c - f;
+            Unumber = c - f; //subtracts
             TextField3.setText(String.valueOf(Unumber));
         } catch (Exception e) {
             TextField3.setText("invalid Input");
@@ -50,7 +50,7 @@ public class MyCalc extends Application {
         try {
             double c = Double.valueOf(TextField1.getText());
             double f = Double.valueOf(TextField2.getText());
-            Unumber = c / f;
+            Unumber = c * f; // multiplies
             TextField3.setText(String.valueOf(Unumber));
 
         } catch (Exception e) {
@@ -62,7 +62,7 @@ public class MyCalc extends Application {
         try {
             double c = Double.valueOf(TextField1.getText());
             double f = Double.valueOf(TextField2.getText());
-            Unumber = c / f;
+            Unumber = c / f; // divedes
             TextField3.setText(String.valueOf(Unumber));
             if (f == 0) {
                 throw new ArithmeticException();
@@ -76,7 +76,7 @@ public class MyCalc extends Application {
     public void SqaureButtonAction(ActionEvent event) {
         try {
             double c = Double.valueOf(TextField1.getText());
-            Unumber = c * c;
+            Unumber = c * c; // sqaure's
             TextField3.setText(String.valueOf(Unumber));
             if (f == 0) {
                 throw new ArithmeticException();

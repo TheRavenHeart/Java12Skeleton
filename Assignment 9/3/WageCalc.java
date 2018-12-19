@@ -15,7 +15,7 @@ import javafx.scene.control.Button;
 public class WageCalc extends Application {
     double Unumber;
     @FXML
-    private TextField TextField1; // grabs the textfields1 from the fmxl file
+    private TextField TextField1; // grabs the textfields from the fmxl file
 
     @FXML
     private TextField TextField2;
@@ -27,7 +27,7 @@ public class WageCalc extends Application {
         try {
             double m = Double.valueOf(TextField1.getText());
             double h = Double.valueOf(TextField2.getText());
-            Unumber = m * h;
+            Unumber = m * h; // multiplies wage by hour
             TextField3.setText(String.valueOf(Unumber));
         } catch (Exception e) {
             TextField3.setText("invalid Input");
