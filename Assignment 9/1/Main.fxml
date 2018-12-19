@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox fx:id="root" fx:controller="ArithmeticCalc" xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@Main.css" />
+    </stylesheets>
+    <children>
+        <TextField fx:id="TextField1"></TextField>
+        <TextField fx:id="TextField2"></TextField>
+        <TextField fx:id="TextField3"></TextField>
+        <Button fx:id="buttonADD" onAction="#AddButtonAction">Add</Button>
+        <Button fx:id="buttonDIV" onAction="#DivButtonAction">Div</Button> 
+        <Button fx:id="buttonMUL" onAction="#MulButtonAction">Mul</Button>
+        <Button fx:id="buttonSUB" onAction="#SubButtonAction">Sub</Button>   
+    </children>
+</VBox>
