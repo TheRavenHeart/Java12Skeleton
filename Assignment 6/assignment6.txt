@@ -20,54 +20,54 @@ foreachloop.java: This is an easier way to pirint out all he elements.
 
 foreachmulti.java: foreachmulti lets you print out each array in the magicsquare
 
-forloop.java:
+forloop.java: A prgram that loops from x=1 to x=9 and prints out x*5
 
-functionvoid.java:
+functionvoid.java: This is a program adds two ints together and prints them out
 
-globalconstant.java:
+globalconstant.java: Allows you to specify a varible that does not change and that you can acess throughout your program 
 
-ifstatement.java:
+ifstatement.java: An if statement is a statment that allows you to set a condtion that controls program flow 
 
-joptionpaneinput.java:
+joptionpaneinput.java: the program promt you for input in a gui window
 
-localconstant.java:
+localconstant.java: Allows you to set a varible as unchanging within a scope
 
-logic.java:
+logic.java: This checks boolean expressions
 
-mainargsarray.java:
+mainargsarray.java: a way to get input from the terminal
 
-mathoperatorsfunctions.java:
+mathoperatorsfunctions.java: demonstrates functions from the math library
 
-multidimensionalarray.java:
+multidimensionalarray.java: This initializes a two dimension array and uses a nested loop to print it out
 
-nesteddowhile.java:
+nesteddowhile.java: uses a nested dowhile loop to outputs times tables 
 
-nestedfor.java:
+nestedfor.java: The above but using nested for loops
 
-nestedif.java:
+nestedif.java:uses nested if statments to control the output based o nthe value of two varibles
 
-nestedswitchstatement.java:
+nestedswitchstatement.java: A program to find the values of two varibles using a nested switch statment
 
-nestedwhile.java:
+nestedwhile.java: Like do while program but checks the condition before moving forward
 
-overloadedfunction.java:
+overloadedfunction.java: demonstrats a function with the same name but diffrent parameter types
 
-raggedarray.java:
+raggedarray.java: An array that is initlized in a way that is inefficent
 
-randomnumber.java:
+randomnumber.java: demonstrates the math.random function to display a pseudo-random number
 
-reinitializearray.java:
+reinitializearray.java: demonstrates an array of number then reinilizting the array using the new keyword
 
-scannerinput.java:
+scannerinput.java: demonstrats using the scanner to get an input
 
-searcharray.java:
+searcharray.java: searches for a specific number in an array using binarySearch on an sorted array
 
-stringtonumber.java:
+stringtonumber.java: using the value of function to change data types to String
 
-switchstatement.java:
+switchstatement.java: An example of a switch statment
 
-typecast.java:
+typecast.java: another way to convert data in to data types
 
-types.java:
+types.java: Displays all of the basic data types as well as String
 
-whileloop.java:
+whileloop.java: THE SIMPLEST WHILE LOOP(outputs the 5 times able from 1 to 9)
